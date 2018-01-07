@@ -9,6 +9,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import commons.MyStringUtils;
+import commons.StringUtilsEx;
+
 public class MyStringUtilsTest {
 
 	@Before
