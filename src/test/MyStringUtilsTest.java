@@ -1,16 +1,13 @@
 package test;
 
 import static org.junit.Assert.*;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import java.awt.geom.Area;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runners.Suite;
 
 public class MyStringUtilsTest {
 

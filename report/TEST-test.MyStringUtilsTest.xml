@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="wanglei" name="test.MyStringUtilsTest" skipped="0" tests="3" time="0.049" timestamp="2018-01-07T14:46:54">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="C:\Users\wanglei23\Desktop\eclipse\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\templates" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_101\lib\resources.jar;C:\Program Files\Java\jre1.8.0_101\lib\rt.jar;C:\Program Files\Java\jre1.8.0_101\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_101\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_101\lib\jce.jar;C:\Program Files\Java\jre1.8.0_101\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_101\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_101\classes" />
+    <property name="report" value="report" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Users\wanglei23\Desktop\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+    <property name="java.runtime.version" value="1.8.0_101-b13" />
+    <property name="user.name" value="wanglei23" />
+    <property name="output" value="bin" />
+    <property name="user.language" value="zh" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin" />
+    <property name="ant.project.default-target" value="test" />
+    <property name="ant.project.name" value="UnitTest" />
+    <property name="java.version" value="1.8.0_101" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="GBK" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="src" value="src" />
+    <property name="user.country" value="CN" />
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_101" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Users\wanglei23\CodeCover\UnitTest\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.101-b13" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Users\wanglei23\Desktop\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="ant.file.type.UnitTest" value="file" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="C:\Users\wanglei23\Desktop\eclipse\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\scripts" />
+    <property name="user.home" value="C:\Users\wanglei23" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\wanglei23\Desktop\jdk6_gr\bin;C:\Java\jdk1.8.0_101\bin;C:\Users\wanglei23\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Qt 5.5.1;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Rational\common;D:\Git\cmd;C:\AppServ\MySQL\bin;C:\Python27;C:\Users\wanglei23\AppData\Local\Microsoft\WindowsApps;C:\AppServ\Apache2.2\bin;C:\AppServ\php5;;C:\Users\wanglei23\Desktop\eclipse;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.MyStringUtilsTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\wanglei23\CodeCover\UnitTest\report\TEST-test.MyStringUtilsTest.xml crashfile=C:\Users\wanglei23\CodeCover\UnitTest\junitvmwatcher2379794377055215837.properties propsfile=C:\Users\wanglei23\CodeCover\UnitTest\junit1372705103421543048.properties" />
+    <property name="java.class.path" value="C:\Users\wanglei23\CodeCover\UnitTest\lib\junit-4.10.jar;C:\Users\wanglei23\CodeCover\UnitTest\bin;C:\Users\wanglei23\CodeCover\UnitTest;C:\Java\jdk1.8.0_101\lib;C:\Java\jdk1.8.0_101\lib\tools.jar;C:\Users\wanglei23\Desktop\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;C:\Users\wanglei23\Desktop\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;C:\Users\wanglei23\Desktop\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;C:\Users\wanglei23\Desktop\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="eclipse.pdebuild.home" value="C:\Users\wanglei23\Desktop\eclipse\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\." />
+    <property name="java.io.tmpdir" value="C:\Users\WANGLE~1\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\wanglei23\CodeCover\UnitTest" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="ant.file.UnitTest" value="C:\Users\wanglei23\CodeCover\UnitTest\build.xml" />
+    <property name="basedir" value="C:\Users\wanglei23\CodeCover\UnitTest" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Users\wanglei23\Desktop\eclipse\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+    <property name="file.encoding" value="GBK" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="test" />
+  </properties>
+  <testcase classname="test.MyStringUtilsTest" name="testToDelimitedString" time="0.007">
+    <failure message="expected:&lt;7&gt; but was:&lt;3&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;7&gt; but was:&lt;3&gt;
+	at test.MyStringUtilsTest.testToDelimitedString(MyStringUtilsTest.java:51)
+</failure>
+  </testcase>
+  <testcase classname="test.MyStringUtilsTest" name="teststartsWithIgnoreCase" time="0.001" />
+  <testcase classname="test.MyStringUtilsTest" name="testTokenizeToStringArray" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
